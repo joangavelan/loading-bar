@@ -57,14 +57,3 @@ buttons.forEach(button => {
 //         }
 //     }, 10)
 // });
-
-//es5 teacher's solution to 100% load
-// let width = 1;
-// let loadingBar = setInterval(function() {
-//     if (width >= 100) {
-//         clearInterval(loadingBar);
-//     } else {
-//         width++;
-//         loadingBarItem.style.width = width + '%';
-//     }
-// }, 15)
